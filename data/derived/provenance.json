@@ -1,0 +1,77 @@
+{
+  "generated_utc": "2026-11-14T16:35:09.943788+00:00",
+  "sources": [
+    {
+      "name": "naif0012.tls",
+      "role": "leapseconds",
+      "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/lsk/naif0012.tls",
+      "license": "NASA NAIF, public domain",
+      "citation": "NAIF, Leapseconds Kernel naif0012.tls",
+      "bytes": 5257,
+      "sha256": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b"
+    },
+    {
+      "name": "pck00011.tpc",
+      "role": "planetary constants (IAU_MOON frame, Moon radii)",
+      "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc",
+      "license": "NASA NAIF, public domain",
+      "citation": "NAIF, Planetary Constants Kernel pck00011.tpc",
+      "bytes": 131226,
+      "sha256": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1"
+    },
+    {
+      "name": "moon_pa_de421_1900-2050.bpc",
+      "role": "lunar principal-axis orientation, 1900-2050",
+      "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/moon_pa_de421_1900-2050.bpc",
+      "license": "NASA NAIF, public domain",
+      "citation": "NAIF, Lunar Orientation Kernel moon_pa_de421_1900-2050.bpc",
+      "bytes": 1770496,
+      "sha256": "656f90616403d75a75f0cd6c8830fc5b44f8cb4facb5ccb8915e752b397520cf"
+    },
+    {
+      "name": "moon_080317.tf",
+      "role": "lunar frame definitions (MOON_ME, MOON_PA)",
+      "source": "https://naif.jpl.nasa.gov/pub/naif/pds/data/lro-l-spice-6-v1.0/lrosp_1000/data/fk/moon_080317.tf",
+      "license": "NASA PDS, public domain",
+      "citation": "NAIF LRO SPICE archive, frame kernel moon_080317.tf",
+      "bytes": 22940,
+      "sha256": "93d7de9f32b7775bae705c9820b645b1d4dc35f82a452b3f008bf997b4fd2df9"
+    },
+    {
+      "name": "moon_assoc_me.tf",
+      "role": "associates MOON_ME with the Moon body",
+      "source": "https://naif.jpl.nasa.gov/pub/naif/pds/data/lro-l-spice-6-v1.0/lrosp_1000/data/fk/moon_assoc_me.tf",
+      "license": "NASA PDS, public domain",
+      "citation": "NAIF LRO SPICE archive, frame kernel moon_assoc_me.tf",
+      "bytes": 10201,
+      "sha256": "070c21704c5efa5701321bf270ea680dc44ff45f50511ec6d949694f6d18b426"
+    },
+    {
+      "name": "moon_assoc_pa.tf",
+      "role": "associates MOON_PA with the Moon body",
+      "source": "https://naif.jpl.nasa.gov/pub/naif/pds/data/lro-l-spice-6-v1.0/lrosp_1000/data/fk/moon_assoc_pa.tf",
+      "license": "NASA PDS, public domain",
+      "citation": "NAIF LRO SPICE archive, frame kernel moon_assoc_pa.tf",
+      "bytes": 10212,
+      "sha256": "0ffa766f4b44cc0b95e3b8a7b34d4a5fc727b2b5061f232e12828e10b53eb00c"
+    },
+    {
+      "name": "de440s.bsp",
+      "role": "planetary ephemeris, 1849-2150 (Sun, Earth, Moon)",
+      "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de440s.bsp",
+      "license": "NASA NAIF, public domain",
+      "citation": "Park et al. (2021), JPL Planetary Ephemeris DE440s",
+      "bytes": 32726016,
+      "sha256": "c1c7feeab882263fc493a9d5a5b2ddd71b54826cdf65d8d17a76126b260a49f2"
+    },
+    {
+      "name": "LDEM_80S_80MPP_ADJ.TIF",
+      "role": "dem_mid",
+      "source": "https://pgda.gsfc.nasa.gov/data/LOLA_20mpp/LDEM_80S_80MPP_ADJ.TIF",
+      "license": "NASA PGDA, public domain",
+      "citation": "Smith et al. (2010), LOLA GDRDEM; PGDA product 90",
+      "bytes": 189158392,
+      "sha256": "82030dcbdd7c4bb0c7d858e9b4b293b9f2cda5a543ba31ec0f42784bd6beee5a"
+    }
+  ]
+}

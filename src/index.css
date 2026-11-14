@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+/*
+  Orbital Insight design tokens.
+
+  One accent (cyan), one neutral family (cool greys built from a deep navy),
+  no second hue for variety. Colour carries meaning only: cyan = interactive
+  or measured, amber = caveat, red = unavailable.
+*/
+@theme {
+  --color-void: #05070d;
+  --color-surface: #0a0e18;
+  --color-surface-2: #111725;
+  --color-surface-3: #182034;
+  --color-line: #1e2739;
+  --color-line-strong: #2c3750;
+  --color-ink: #e8edf7;
+  --color-ink-muted: #93a1bd;
+  --color-ink-faint: #7b88a6;
+  --color-accent: #35d6e8;
+  --color-accent-dim: #1d8fa0;
+  --color-caution: #d8a13c;
+  --color-alert: #d9604f;
+
+  --font-sans: "Inter", system-ui, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
+}
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    background-color: var(--color-void);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1.15;
+    text-wrap: balance;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
